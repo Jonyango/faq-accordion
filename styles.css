@@ -20,8 +20,8 @@ body{
   background:linear-gradient(var(--violet),var(--blue));
   background-repeat: no-repeat;
 }
-h2{
-  font-size: 16px;
+p{
+  font-size: 12px;
 }
 
 #faq{
@@ -32,7 +32,7 @@ h2{
 }
 #page-title{
   font-size: 40px;
-  margin-bottom: 1rem;
+  color: var(--saturated-blue);
 }
 .container{
   display: grid;
@@ -45,11 +45,26 @@ h2{
 }
 .questions-cont{
   margin-right: 2rem;
-  outline:1px solid red;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; */
 }
 .question-card{
   margin-bottom: .5rem;
+}
+
+.question-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-title{
+  margin:.5rem 0;
+}
+
+.arrow-down{
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
